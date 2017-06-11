@@ -37,6 +37,11 @@ import config from './config.json';
 discordIRC(config);
 ```
 
+To run with Docker:
+```bash
+$ docker run -v /path/to/config.json:/discord-irc/config.json pocoyo/discord-irc 
+```
+
 ## Configuration
 First you need to create a Discord bot user, which you can do by following the instructions [here](https://github.com/reactiflux/discord-irc/wiki/Creating-a-discord-bot-&-getting-a-token).
 
